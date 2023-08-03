@@ -42,7 +42,7 @@ class DBserviceApplicationTest {
 //		departmentFlux.subscribe(System.out::println);
 //
 //
-//// Make a GET request to retrieve the book
+// Make a GET request to retrieve the book
 //		ResponseEntity<EntityModel> response =
 //		//restTemplate.getForEntity("http://localhost:"+port + "/departments", Department[].class);
 //

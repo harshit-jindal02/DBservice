@@ -23,7 +23,7 @@ public class Department implements Serializable {
     private Integer departmentId;
 
     @Column(name = "department_name", nullable = false, unique = true)
-    private String departmentName;
+    private String department_name;
 
     @OneToMany(mappedBy = "department")
     private List<Programme> programmeList;
